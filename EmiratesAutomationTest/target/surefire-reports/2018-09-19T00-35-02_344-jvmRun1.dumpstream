@@ -1,0 +1,137 @@
+# Created at 2018-09-19T00:35:40.627
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-09-19T00:35:42.255
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,enterUserNameTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-19T00:35:42.263
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,performCarSelectionTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:42.808
+Unexpected IOException with stream: Clicked element at x:417, y:770
+
+
+# Created at 2018-09-19T00:35:45.273
+Unexpected IOException with stream: Item was not found!
+
+
+# Created at 2018-09-19T00:35:45.414
+Unexpected IOException: 8,1,com.emirates.project.test.CarSelectionPageTest,performCarSelectionTest(com.emirates.project.test.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.performCarSelectionTest:45 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.emirates.project.test.CarSelectionPageTest.performCarSelectionTest(CarSelectionPageTest.java:45)\000A
+
+
+# Created at 2018-09-19T00:35:45.415
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,clickSendNameButtonTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:47.514
+Unexpected IOException: 8,1,com.emirates.project.test.CarSelectionPageTest,clickSendNameButtonTest(com.emirates.project.test.CarSelectionPageTest),null,Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@index='6']}),null,Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@index='6']}),CarSelectionPageTest.clickSendNameButtonTest:52 \00BB NoSuchElement Can't locate a...,org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@index='6']})\000A\0009at com.emirates.project.test.CarSelectionPageTest.clickSendNameButtonTest(CarSelectionPageTest.java:52)\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@60d1b21f (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at com.emirates.project.test.CarSelectionPageTest.clickSendNameButtonTest(CarSelectionPageTest.java:52)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.chained({By.xpath: //android.widget.Button[@index='6']})\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver\000A\0009at com.emirates.project.test.CarSelectionPageTest.clickSendNameButtonTest(CarSelectionPageTest.java:52)\000A
+
+
+# Created at 2018-09-19T00:35:47.515
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,isUserDataShownTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:49.583
+Unexpected IOException with stream: Item was not found!
+
+
+# Created at 2018-09-19T00:35:49.668
+Unexpected IOException: 8,1,com.emirates.project.test.CarSelectionPageTest,isUserDataShownTest(com.emirates.project.test.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.isUserDataShownTest:58 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.emirates.project.test.CarSelectionPageTest.isUserDataShownTest(CarSelectionPageTest.java:58)\000A
+
+
+# Created at 2018-09-19T00:35:49.669
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,isPageUnloadedTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:51.915
+Unexpected IOException: 8,1,com.emirates.project.test.CarSelectionPageTest,isPageUnloadedTest(com.emirates.project.test.CarSelectionPageTest),null,Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]}),null,Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]}),CarSelectionPageTest.isPageUnloadedTest:64 \00BB NoSuchElement Can't locate an ele...,org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]})\000A\0009at com.emirates.project.test.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:64)\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3ce53f6a (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at com.emirates.project.test.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:64)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]})\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver\000A\0009at com.emirates.project.test.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:64)\000A
+
+
+# Created at 2018-09-19T00:35:51.916
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-19T00:35:51.917
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-19T00:35:51.946
+Unexpected IOException with stream: POP UP PAGE TESTS --------------------------------------
+
+
+# Created at 2018-09-19T00:35:51.947
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,returnToHomePageTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:56.394
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,returnToHomePageTest(com.emirates.project.test.PopUpPageTest),null,Expected condition failed: waiting for visibility of Located by By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview}) (tried for 3 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for visibility of Located by By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview}) (tried for 3 second(s) with 500 milliseconds interval),PopUpPageTest.returnToHomePageTest:29 \00BB Timeout Expected condition failed: wai...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview}) (tried for 3 second(s) with 500 milliseconds interval)\000A\0009at com.emirates.project.test.PopUpPageTest.returnToHomePageTest(PopUpPageTest.java:29)\000ACaused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview})\000A\0009at com.emirates.project.test.PopUpPageTest.returnToHomePageTest(PopUpPageTest.java:29)\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4a734c04 (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at com.emirates.project.test.PopUpPageTest.returnToHomePageTest(PopUpPageTest.java:29)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview})\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver\000A\0009at com.emirates.project.test.PopUpPageTest.returnToHomePageTest(PopUpPageTest.java:29)\000A
+
+
+# Created at 2018-09-19T00:35:56.395
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:58.337
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),null,Can't locate an element by this strategy: By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview}),null,Can't locate an element by this strategy: By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview}),PopUpPageTest.isPageLoadedTest:35 \00BB NoSuchElement Can't locate an element by t...,org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview})\000A\0009at com.emirates.project.test.PopUpPageTest.isPageLoadedTest(PopUpPageTest.java:35)\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@10b1a751 (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at com.emirates.project.test.PopUpPageTest.isPageLoadedTest(PopUpPageTest.java:35)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.chained({By.id: io.selendroid.testapp:id/buttonStartWebview})\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver\000A\0009at com.emirates.project.test.PopUpPageTest.isPageLoadedTest(PopUpPageTest.java:35)\000A
+
+
+# Created at 2018-09-19T00:35:58.338
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:35:58.367
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),null,Index: 0\002C Size: 0,null,Index: 0\002C Size: 0,PopUpPageTest.getPopUpWindowTextTest:41 \00BB IndexOutOfBounds Index: 0\002C Size: 0,java.lang.IndexOutOfBoundsException: Index: 0\002C Size: 0\000A\0009at com.emirates.project.test.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:41)\000A
+
+
+# Created at 2018-09-19T00:35:58.368
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:36:01.488
+Unexpected IOException with stream: Item was not found!
+
+
+# Created at 2018-09-19T00:36:01.678
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),null,null,null,null,PopUpPageTest.dismissPopUpWindowTest:48 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.emirates.project.test.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:48)\000A
+
+
+# Created at 2018-09-19T00:36:01.679
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:36:03.418
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),null,Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false],null,Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false],PopUpPageTest.clickThrowExceptionButton:55 Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false],java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]\000A\0009at com.emirates.project.test.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:55)\000A
+
+
+# Created at 2018-09-19T00:36:03.419
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-19T00:36:03.419
+Unexpected IOException: 6,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),null,null,null
+
+
+# Created at 2018-09-19T00:36:03.420
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-19T00:36:03.456
+Unexpected IOException with stream: END OF TEST-SUITE EXECUTION --------------------------------------
+
+
+# Created at 2018-09-19T00:36:03.457
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-19T00:36:08.312
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

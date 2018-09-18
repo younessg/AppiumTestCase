@@ -1,0 +1,206 @@
+# Created at 2018-09-18T23:22:28.386
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-09-18T23:22:43.563
+Unexpected IOException with stream: sep 18, 2018 11:22:43 EM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+
+
+# Created at 2018-09-18T23:22:43.610
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-18T23:22:43.719
+Unexpected IOException with stream: HOME PAGE TESTS ------------------------------
+
+
+# Created at 2018-09-18T23:22:43.735
+Unexpected IOException: 5,1,com.emirates.project.test.HomePageTest,isPageLoadedTest(com.emirates.project.test.HomePageTest),com.emirates.project.test.HomePageTest,null,null
+
+
+# Created at 2018-09-18T23:22:43.829
+Unexpected IOException: 6,1,com.emirates.project.test.HomePageTest,isPageLoadedTest(com.emirates.project.test.HomePageTest),null,null,null
+
+
+# Created at 2018-09-18T23:22:43.829
+Unexpected IOException: 5,1,com.emirates.project.test.HomePageTest,clickChromeIconTest(com.emirates.project.test.HomePageTest),com.emirates.project.test.HomePageTest,null,null
+
+
+# Created at 2018-09-18T23:22:44.125
+Unexpected IOException with stream: Clicked element at x:0, y:348
+
+
+# Created at 2018-09-18T23:22:44.251
+Unexpected IOException: 6,1,com.emirates.project.test.HomePageTest,clickChromeIconTest(com.emirates.project.test.HomePageTest),null,null,null
+
+
+# Created at 2018-09-18T23:22:44.251
+Unexpected IOException: 5,1,com.emirates.project.test.HomePageTest,isPageUnloadedTest(com.emirates.project.test.HomePageTest),com.emirates.project.test.HomePageTest,null,null
+
+
+# Created at 2018-09-18T23:22:45.548
+Unexpected IOException: 8,1,com.emirates.project.test.HomePageTest,isPageUnloadedTest(com.emirates.project.test.HomePageTest),null,Failed to unload Home page! expected [true] but found [false],null,Failed to unload Home page! expected [true] but found [false],HomePageTest.isPageUnloadedTest:52 Failed to unload Home page! expected [true] but found [false],java.lang.AssertionError: Failed to unload Home page! expected [true] but found [false]\000A\0009at com.emirates.project.test.HomePageTest.isPageUnloadedTest(HomePageTest.java:52)\000A
+
+
+# Created at 2018-09-18T23:22:45.563
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-18T23:22:45.563
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-18T23:22:45.579
+Unexpected IOException with stream: NAME ENTRY AND CAR SELECTION PAGE TESTS ------------------------------
+
+
+# Created at 2018-09-18T23:22:45.579
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,isPageLoadedTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:22:46.141
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,isPageLoadedTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:22:46.141
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,enterUserNameTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:22:49.534
+Unexpected IOException with stream: Keying in the name takes time!
+
+
+# Created at 2018-09-18T23:22:57.487
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,enterUserNameTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:22:57.487
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,performCarSelectionTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:22:58.018
+Unexpected IOException with stream: Clicked element at x:417, y:770
+
+
+# Created at 2018-09-18T23:22:59.127
+Unexpected IOException with stream: Clicked element at x:107, y:1023
+
+
+# Created at 2018-09-18T23:23:00.159
+Unexpected IOException with stream: Selected car:Audi
+
+
+# Created at 2018-09-18T23:23:00.159
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,performCarSelectionTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:00.159
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,clickSendNameButtonTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:00.659
+Unexpected IOException with stream: Clicked element at x:333, y:932
+
+
+# Created at 2018-09-18T23:23:00.799
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,clickSendNameButtonTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:00.799
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,isUserDataShownTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:02.159
+Unexpected IOException: 6,1,com.emirates.project.test.CarSelectionPageTest,isUserDataShownTest(com.emirates.project.test.CarSelectionPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:02.159
+Unexpected IOException: 5,1,com.emirates.project.test.CarSelectionPageTest,isPageUnloadedTest(com.emirates.project.test.CarSelectionPageTest),com.emirates.project.test.CarSelectionPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:04.315
+Unexpected IOException: 8,1,com.emirates.project.test.CarSelectionPageTest,isPageUnloadedTest(com.emirates.project.test.CarSelectionPageTest),null,isPageUnloadedTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]}),null,isPageUnloadedTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]}),CarSelectionPageTest.isPageUnloadedTest:93->throwExceptionWithMessage:106 isPageUnloadedTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]}),java.lang.AssertionError: isPageUnloadedTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@content-desc="This is my way of saying hello"]})\000A\0009at com.emirates.project.test.CarSelectionPageTest.throwExceptionWithMessage(CarSelectionPageTest.java:106)\000A\0009at com.emirates.project.test.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:93)\000A
+
+
+# Created at 2018-09-18T23:23:04.315
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-18T23:23:04.315
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-18T23:23:04.346
+Unexpected IOException with stream: POP UP PAGE TESTS --------------------------------------
+
+
+# Created at 2018-09-18T23:23:04.346
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,returnToHomePageTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:05.643
+Unexpected IOException: 6,1,com.emirates.project.test.PopUpPageTest,returnToHomePageTest(com.emirates.project.test.PopUpPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:05.643
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:05.721
+Unexpected IOException: 6,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:05.721
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:09.018
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),null,getPopUpWindowTextTest failed\002C error message:Index: 0\002C Size: 0,null,getPopUpWindowTextTest failed\002C error message:Index: 0\002C Size: 0,PopUpPageTest.getPopUpWindowTextTest:55->throwExceptionWithMessage:98 getPopUpWindowTextTest failed\002C error message:Index: 0\002C Size: 0,java.lang.AssertionError: getPopUpWindowTextTest failed\002C error message:Index: 0\002C Size: 0\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:55)\000A
+
+
+# Created at 2018-09-18T23:23:09.018
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:11.190
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),null,dismissPopUpWindowTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //*[@text="Dismiss"]}),null,dismissPopUpWindowTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //*[@text="Dismiss"]}),PopUpPageTest.dismissPopUpWindowTest:66->throwExceptionWithMessage:98 dismissPopUpWindowTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //*[@text="Dismiss"]}),java.lang.AssertionError: dismissPopUpWindowTest failed\002C error message:Can't locate an element by this strategy: By.chained({By.xpath: //*[@text="Dismiss"]})\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:66)\000A
+
+
+# Created at 2018-09-18T23:23:11.190
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:12.737
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),null,Failed to click the exception button! expected [true] but found [false],null,Failed to click the exception button! expected [true] but found [false],PopUpPageTest.clickThrowExceptionButton:75 Failed to click the exception button! expected [true] but found [false],java.lang.AssertionError: Failed to click the exception button! expected [true] but found [false]\000A\0009at com.emirates.project.test.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:75)\000A
+
+
+# Created at 2018-09-18T23:23:12.737
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T23:23:12.737
+Unexpected IOException: 6,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),null,null,null
+
+
+# Created at 2018-09-18T23:23:12.737
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-18T23:23:12.768
+Unexpected IOException with stream: END OF TEST-SUITE EXECUTION --------------------------------------
+
+
+# Created at 2018-09-18T23:23:12.768
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-18T23:23:16.893
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

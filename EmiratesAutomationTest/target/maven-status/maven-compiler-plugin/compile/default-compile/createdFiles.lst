@@ -1,0 +1,15 @@
+com\emirates\project\test\HomePageTest.class
+com\emirates\project\utils\Platforms.class
+com\emirates\project\core\DriversFactory.class
+com\emirates\project\test\TestPrimer.class
+com\emirates\project\pages\HomePage.class
+com\emirates\project\pages\CarSelectionPage.class
+com\emirates\project\core\IPage.class
+com\emirates\project\utils\SwipeDirection.class
+com\emirates\project\core\BaseTest.class
+com\emirates\project\core\Server.class
+com\emirates\project\test\CarSelectionPageTest.class
+com\emirates\project\core\IBaseTest.class
+com\emirates\project\pages\PopUpPage.class
+com\emirates\project\test\PopUpPageTest.class
+com\emirates\project\core\BasePage.class

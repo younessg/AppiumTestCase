@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Emirates_Test_Cases" verbose="1">
+	<test name="Home_WebView_Pages_Tests" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.emirates.project.test.TestPrimer" />
+			<class name="com.emirates.project.test.HomePageTest" />
+			<class name="com.emirates.project.test.CarSelectionPageTest" />
+			<class name="com.emirates.project.test.PopUpPageTest" />
+		</classes>
+	</test>
+</suite>

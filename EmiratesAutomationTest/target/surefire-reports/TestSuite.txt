@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 38.166 s <<< FAILURE! - in TestSuite
+getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest)  Time elapsed: 3.192 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.emirates.project.test.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:41)
+
+dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest)  Time elapsed: 3.059 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.emirates.project.test.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:48)
+
+clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest)  Time elapsed: 1.614 s  <<< FAILURE!
+java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.emirates.project.test.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:55)
+

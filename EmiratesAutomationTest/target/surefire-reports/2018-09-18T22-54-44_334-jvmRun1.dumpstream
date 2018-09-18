@@ -1,0 +1,73 @@
+# Created at 2018-09-18T22:55:59.669
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-09-18T22:56:11.760
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,returnToHomePageTest(com.emirates.project.test.PopUpPageTest),null,returnToHomePageTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver,null,returnToHomePageTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver,PopUpPageTest.returnToHomePageTest:32->throwExceptionWithMessage:98 returnToHomePageTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver,java.lang.AssertionError: \000AreturnToHomePageTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AndroidDriver\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.returnToHomePageTest(PopUpPageTest.java:32)\000A
+
+
+# Created at 2018-09-18T22:56:11.760
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T22:56:12.791
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,isPageLoadedTest(com.emirates.project.test.PopUpPageTest),null,isPageLoadedTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,null,isPageLoadedTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,PopUpPageTest.isPageLoadedTest:43->throwExceptionWithMessage:98 isPageLoadedTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,java.lang.AssertionError: \000AisPageLoadedTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.isPageLoadedTest(PopUpPageTest.java:43)\000A
+
+
+# Created at 2018-09-18T22:56:12.791
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T22:56:13.822
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,getPopUpWindowTextTest(com.emirates.project.test.PopUpPageTest),null,getPopUpWindowTextTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,null,getPopUpWindowTextTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,PopUpPageTest.getPopUpWindowTextTest:55->throwExceptionWithMessage:98 getPopUpWindowTextTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,java.lang.AssertionError: \000AgetPopUpWindowTextTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:55)\000A
+
+
+# Created at 2018-09-18T22:56:13.822
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T22:56:14.853
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,dismissPopUpWindowTest(com.emirates.project.test.PopUpPageTest),null,dismissPopUpWindowTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,null,dismissPopUpWindowTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,PopUpPageTest.dismissPopUpWindowTest:66->throwExceptionWithMessage:98 dismissPopUpWindowTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver,java.lang.AssertionError: \000AdismissPopUpWindowTest failed\002C error message:Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: AppiumDriver\000A\0009at com.emirates.project.test.PopUpPageTest.throwExceptionWithMessage(PopUpPageTest.java:98)\000A\0009at com.emirates.project.test.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:66)\000A
+
+
+# Created at 2018-09-18T22:56:14.853
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T22:56:15.885
+Unexpected IOException: 8,1,com.emirates.project.test.PopUpPageTest,clickThrowExceptionButton(com.emirates.project.test.PopUpPageTest),null,Failed to click the exception button! expected [true] but found [false],null,Failed to click the exception button! expected [true] but found [false],PopUpPageTest.clickThrowExceptionButton:75 Failed to click the exception button! expected [true] but found [false],java.lang.AssertionError: Failed to click the exception button! expected [true] but found [false]\000A\0009at com.emirates.project.test.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:75)\000A
+
+
+# Created at 2018-09-18T22:56:15.885
+Unexpected IOException: 5,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),com.emirates.project.test.PopUpPageTest,null,null
+
+
+# Created at 2018-09-18T22:56:15.885
+Unexpected IOException: 6,1,com.emirates.project.test.PopUpPageTest,isPageUnloadedTest(com.emirates.project.test.PopUpPageTest),null,null,null
+
+
+# Created at 2018-09-18T22:56:15.885
+Unexpected IOException with stream:  
+
+
+# Created at 2018-09-18T22:56:15.916
+Unexpected IOException with stream: END OF TEST-SUITE EXECUTION --------------------------------------
+
+
+# Created at 2018-09-18T22:56:15.916
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-09-18T22:56:16.947
+Unexpected IOException: 8,1,com.emirates.project.test.TestPrimer,tearDown(com.emirates.project.test.TestPrimer),null,Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: RemoteWebDriver,null,Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: RemoteWebDriver,TestPrimer.tearDown:41 \00BB WebDriver Connection refused: connect\000ABuild info: ver...,org.openqa.selenium.WebDriverException: \000AConnection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.3'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at com.emirates.project.test.TestPrimer.tearDown(TestPrimer.java:41)\000ACaused by: java.net.ConnectException: Connection refused: connect\000A\0009at com.emirates.project.test.TestPrimer.tearDown(TestPrimer.java:41)\000A
+
+
+# Created at 2018-09-18T22:56:17.056
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
